@@ -31,7 +31,7 @@ class TestMain(unittest.TestCase):
     def test_mirror_true(self):
         self.assertEqual(main.miror('thomas'), 'samoht')
 
-    def test_mirror_true(self):
+    def test_mirror_false(self):
         self.assertNotEqual(main.miror('thomas'), 'izefuhi')
 
     def test_palindrome_true(self):
